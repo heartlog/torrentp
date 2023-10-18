@@ -29,7 +29,7 @@ setup(
     author_email=get_property('__author_email__'),
     license=get_property('__license__'),
     packages=['torrentp'],
-    install_requires=['libtorrent>=2.0.7', ],
+    install_requires=['libtorrent'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
